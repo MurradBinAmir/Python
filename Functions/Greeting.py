@@ -15,13 +15,11 @@ def concatinate(f_Name,m_Name=None,l_Name=None):
     elif f_Name:
         return f_Name
                
-     
-
+               
 # calling a function
 function()
 
 first_Name = input("what is your first name : ")
-midle_Name = input("what is your midle name : ")
-last_Name  = input("what is your last name  : ")
+midle_Name = input("If you dont have midle name, press enter to skip \nwhat is your midle name : ")
+last_Name  = input("If you dont have last name, press enter to skip \nwhat is your last name  : ")
 function(concatinate(first_Name,l_Name=last_Name,m_Name=midle_Name))
-
