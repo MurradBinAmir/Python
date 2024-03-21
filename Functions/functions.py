@@ -4,6 +4,11 @@ def function():
 # parameterized function
 def parameter(name):
     print(f"Hello {name}")
+# if you dont want to define function,
+# type pass in its body    
+def notDefined():
+    pass    
+
 # calling a function
 function()
 
