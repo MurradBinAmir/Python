@@ -62,7 +62,6 @@ class spaceCraft:
         uranus = uranus()
         neptune = neptune()
     
-        # planet_list = [mercury(), venus(), earth(), mars(), jupiter(), saturn(), uranus(), neptune()]
         planet_list = [mercury, venus, earth, mars, jupiter, saturn, uranus, neptune]
 
         for planet in planet_list:
